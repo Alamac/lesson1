@@ -21,7 +21,7 @@ product = {
     'stock': 22,
     'price': 65000,
     'phones': ['iphone', 'samsung', 'oneplus'],
-    'discount': 120
+    'discount': 110
 }
 
 product['price_with_discount'] = discounted(product['price'], product['discount'], max_discount=120)
